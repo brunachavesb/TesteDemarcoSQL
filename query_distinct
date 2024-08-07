@@ -1,0 +1,3 @@
+SELECT DISTINCT Cor
+FROM Alugueis
+WHERE TO_DATE(Mes_Ano, 'MM-YY') > TO_DATE('07-22', 'MM-YY');
