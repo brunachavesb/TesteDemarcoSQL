@@ -1,0 +1,4 @@
+SELECT Nome, SUM(Valor) AS Total
+FROM Alugueis
+WHERE Produto NOT IN ('Carro', 'Raquete')
+GROUP BY Nome;
